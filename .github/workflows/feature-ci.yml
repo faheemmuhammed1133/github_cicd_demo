@@ -5,15 +5,15 @@ on:
     branches:
       - 'feature/*'
   
-  
+
 jobs:
   ci:
     runs-on: ubuntu-latest
     steps:
-      - uses: action/checkout@v3
+    - uses: action/checkout@v3
 
-      - name: runtest
-        run: echo "Running on feature branch..."
+    - name: runtest
+      run: echo "Running on feature branch..."
           
-      - name: deploy
-        run: echo "Deploying on feature branch..."
+    - name: deploy
+      run: echo "Deploying on feature branch..."
