@@ -1,6 +1,6 @@
 name : Feature Cicd Development
 
-on
+on:
   push:
     branches:
       - 'feature/*'
