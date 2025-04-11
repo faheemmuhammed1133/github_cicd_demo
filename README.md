@@ -1,2 +1,2 @@
-# github_cicd_demo
+# github_ci-cd_demo
 working out on a demo for DevOps
